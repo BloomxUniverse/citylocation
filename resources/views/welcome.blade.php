@@ -1,14 +1,11 @@
-@extends('shopify-app::layouts.default')
-
-@section('content')
-    <!-- You are: (shop domain name) -->
-    <p>You are: {{ $shopDomain ?? Auth::user()->name }}</p>
-@endsection
-
-@section('scripts')
-    @parent
-
-    <script>
-        actions.TitleBar.create(app, { title: 'Welcome' });
-    </script>
-@endsection
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hello
+</body>
+</html>
